@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 question.style.borderBottom = 'none';
                 answer.style.borderBottom = '1px solid hsl(292, 16%, 49%, 0.1)';
                 question.classList.remove('hover-state');
+                question.style.cursor = 'pointer';
             }
 
             
