@@ -45,7 +45,7 @@ header h2{
     color: hsl(292, 42%, 14%);
 }
 
-.question:not(:last-child){
+.question{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
