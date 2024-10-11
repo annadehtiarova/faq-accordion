@@ -31,12 +31,12 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 18px;
+    gap: 24px;
     height: 100px;
 }
 
 header img{
-    width: 64px;
+    width: 40px;
 }
 
 header h2{
