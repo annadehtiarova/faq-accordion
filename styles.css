@@ -54,12 +54,11 @@ header h2{
     border-bottom: 1px solid hsl(292, 16%, 49%, 0.1);
 }
 
-
-
-.question:hover{
+.hover-state:hover{
     color: hsl(280, 90%, 55%);
     cursor: pointer;
 }
+
 
 h3{
     font-size: 18px;
@@ -137,4 +136,5 @@ h3{
         font-size: 14px;
         line-height: 1.4;
     }
+
 }
