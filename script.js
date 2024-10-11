@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Remove border from the last question
     answers[answers.length - 1].style.borderBottom = 'none';
+    
+    // Listen for a question click
     questions.forEach(question => {
         question.addEventListener('click', function () {
             // Toggle active class for the clicked header
